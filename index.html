@@ -5,9 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="Css/reset.css">
-    <link rel="stylesheet" href="Css/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Такси аэропорта Симферополь</title>
 </head>
 <body>
 <div class="wrapper">
@@ -16,13 +16,13 @@
             <div class="city">
                 <h3 class="city__tittle">трансфер</h3>
                 <div class="dropdown">
-                    <button class="dropbtn">Симферополь</button>
-                    <div class="dropdown-content">
-                        <a href="#">ЛНР</a>
-                        <a href="#">ДНР</a>
-                        <a href="#">Херсон</a>
-                        <a href="#">Запорожье</a>
-                    </div>
+                    <button class="drop-btn">Симферополь</button>
+                    <ul class="dropdown-content">
+                        <li><a href="#">ЛНР</a></li>
+                        <li><a href="#">ЛНР</a></li>
+                        <li><a href="#">ЛНР</a></li>
+                        <li><a href="#">ЛНР</a></li>
+                    </ul>
                 </div>
             </div>
             <nav class="nav">
@@ -50,11 +50,11 @@
         </div>
     </header>
     <main class="main">
-        <section class="main__hero">
+        <section class="hero">
             <div class="order">
-                <div class="main__info">
-                    <h1 class="main__tittle">Такси аеропорта <span>Симферополь</span></h1>
-                    <p class="main__text">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют от нас анализа форм развития</p>
+                <div class="hero__info">
+                    <h1 class="hero__tittle">Такси аеропорта <span>Симферополь</span></h1>
+                    <p class="hero__text">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют от нас анализа форм развития</p>
                 </div>
             </div>
             <div class="order-taxi">
@@ -95,7 +95,7 @@
                     <form action="" class="form">
                         <div class="form__item">
                             <p>Класс такси</p>
-                            <select name="" id="">
+                            <select>
                                 <option selected disabled value="">Выберите класс такси</option>
                                 <option value="">Говно</option>
                                 <option value="">моча</option>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="form__item">
                             <p>Вид поездки</p>
-                            <select name="" id="">
+                            <select>
                                 <option selected disabled value="">Выберите вид поездки</option>
                                 <option value="">Говно</option>
                                 <option value="">моча</option>
@@ -111,7 +111,7 @@
                         </div>
                         <div class="form__item">
                             <p>Местоназначения</p>
-                            <select name="" id="">
+                            <select>
                                 <option selected disabled value="">Выберите или введите название</option>
                                 <option value="">Говно</option>
                                 <option value="">моча</option>
