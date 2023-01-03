@@ -1,0 +1,159 @@
+.hero {
+    background: rgba(0, 0, 0, 0.8) url(../../../img/taxi__main.png);
+    background-blend-mode: darken;
+    padding: 66px 0 0 0;
+    position: relative;
+    height: 485px;
+    margin-bottom: 350px;
+}
+
+.hero__tittle {
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 91px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero__tittle span {
+    color: yellow;
+}
+
+.hero__text {
+    font-weight: 500;
+    max-width: 615px;
+    margin: 0 auto 50px;
+    font-size: 16px;
+    line-height: 21px;
+    color:white;
+    text-align: center;
+}
+
+.order-taxi {
+    background: white;
+    max-width: 1170px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: 2px solid #D2D2D2;
+    border-radius: 5px;
+    padding: 50px 150px;
+}
+
+.order-taxi__tittle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151515;
+    margin-bottom: 25px;
+}
+
+.order-taxi__step {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.step:not(:last-child){
+    margin-right: 60px;
+}
+/* TODO: переделать стрелки на трасформ https://www.youtube.com/watch?v=uQEGUpsnqsw&t=1374s
+    изменить стили стрелок, сделать через трансформ
+    */
+.step:not(:last-child):after {
+    content: url("../../../icon/Arrow 2.svg");
+    position: absolute;
+    left: 116%;
+    top: 47%;
+}
+
+.order-taxi__circle_yellow {
+    background: #FFC40B;
+}
+
+.order-taxi__circle_grey {
+    background: #D2D2D2
+;
+}
+
+.order-taxi__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #151515;
+    margin-bottom: 10px;
+}
+
+.order-taxi__step-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A3A3A3;
+}
+
+.order-taxi__forms {
+    padding: 45px 0 0 0;
+    border-top: 2px solid #FAFAFA;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #151515;
+    margin-bottom: 15px;
+}
+
+.form select {
+    width: 270px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #D2D2D2;;
+}
+
+.form__item {
+    text-align: left;
+}
+
+.form__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.order-taxi__button {
+    width: 200px;
+
+}
